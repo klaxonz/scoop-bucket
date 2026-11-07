@@ -1,6 +1,6 @@
 {
     "##": "NSIS installer, repacked as archive; `$PLUGINSDIR and Uninstall.exe are stripped in pre_install.",
-    "version": "0.1.19",
+    "version": "0.1.21",
     "description": "Native desktop music player for your own files, written in Go with MyGo. Local-first, no WebView.",
     "homepage": "https://music.egoist.dev",
     "license": {
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.19/mygo-music-setup-0.1.19-amd64.exe#/dl.7z",
-            "hash": "7948cc6e7b78c90c63eb6cba1e8a1f51dbcfee371dd54391ce55ace99445d604"
+            "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.21/mygo-music-setup-0.1.21-amd64.exe#/dl.7z",
+            "hash": "b9c8e24e63f801d4cc3f20116e76d67aae32bb379a41ff90d8c525ff67a6210e"
         },
         "arm64": {
-            "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.19/mygo-music-setup-0.1.19-arm64.exe#/dl.7z",
-            "hash": "d180b6f4ffd3cba2e97b0e27b9c4c0b37b9d1c00b14f8143c1e39997496a4c37"
+            "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.21/mygo-music-setup-0.1.21-arm64.exe#/dl.7z",
+            "hash": "2862fae818cb91536a7d91d60db13d6f9585fc5f7cf689cd16c37daada35e159"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Force -Recurse -ErrorAction Ignore",
